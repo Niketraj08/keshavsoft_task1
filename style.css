@@ -1,0 +1,144 @@
+/* Purple gradient for buttons */
+.btn-gradient {
+  background: linear-gradient(135deg, #7c3aed, #d946ef);
+  color: #fff;
+  border: none;
+  transition: background 0.3s ease;
+}
+.btn-gradient:hover,
+.btn-gradient:focus {
+  background: linear-gradient(135deg, #6b21a8, #c026d3);
+  color: #fff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(199, 46, 170, 0.7);
+}
+
+/* Logo square */
+.logo-square {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #7c3aed, #d946ef);
+  border-radius: 8px;
+}
+
+/* Navbar link active color */
+.nav-link.active {
+  color: #7c3aed !important;
+  font-weight: 600;
+}
+
+/* Text purple for "View Projects" button */
+.text-purple {
+  color: #7c3aed !important;
+}
+
+/* Fade-in and slide-up animation */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-slide-up {
+  animation: fadeSlideUp 0.8s ease forwards;
+  opacity: 0; /* start hidden */
+}
+
+/* Stagger animation delays */
+.animate-delay-1 {
+  animation-delay: 0.2s;
+}
+.animate-delay-2 {
+  animation-delay: 0.4s;
+}
+.animate-delay-3 {
+  animation-delay: 0.6s;
+}
+.animate-delay-4 {
+  animation-delay: 0.8s;
+}
+.animate-delay-5 {
+  animation-delay: 1s;
+}
+.animate-delay-6 {
+  animation-delay: 1.2s;
+}
+
+/* Darker gradient background for footer */
+.bg-gradient {
+  background: linear-gradient(135deg, #4b0082, #800080); /* Dark purple gradient */
+  color: #e0d7f7;
+}
+
+/* Footer links */
+footer a {
+  color: #cbb9ff;
+  transition: color 0.3s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #f0e6ff;
+  text-decoration: underline;
+}
+
+/* Footer icons */
+footer .bi {
+  color: #cbb9ff;
+  transition: color 0.3s ease;
+}
+
+footer .bi:hover,
+footer .bi:focus {
+  color: #f0e6ff;
+}
+
+/* Footer text */
+footer p,
+footer h5 {
+  color: #e0d7f7;
+}
+
+/* Purple gradient background for footer */
+.bg-gradient {
+  background: linear-gradient(135deg, #6b21a8, #9333ea); /* Purple gradient */
+  color: #e9d8fd; /* Light lavender text */
+  /* Optional subtle shadow */
+  box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Footer headings and text */
+footer h5,
+footer p {
+  color: #e9d8fd;
+}
+
+/* Footer links */
+footer a {
+  color: #d8b4fe;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #faf5ff;
+  text-decoration: underline;
+}
+
+/* Footer icons */
+footer .bi {
+  color: #d8b4fe;
+  transition: color 0.3s ease;
+  font-size: 1.3rem;
+}
+
+footer .bi:hover,
+footer .bi:focus {
+  color: #faf5ff;
+}
